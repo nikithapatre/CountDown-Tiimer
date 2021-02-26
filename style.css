@@ -1,0 +1,103 @@
+body {
+    font-family: "Poppins";
+    margin: 0;
+    background-color: beige;
+    background-image: url("https://www.wuwm.com/sites/wuwm/files/styles/x_large/public/202009/AdobeStock_326545658.jpeg");
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-style: oblique;
+}
+
+h1:hover {
+    color: firebrick;
+}
+
+.fa {
+    text-shadow: 0 0 3px #000;
+}
+
+.fa:hover {
+    color: crimson;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.days {
+    padding-right: 20px;
+    font-size: larger;
+}
+
+.days:hover {
+    color: cyan;
+}
+
+.hours {
+    padding-right: 20px;
+    font-size: larger;
+}
+
+.hours :hover {
+    color: cyan;
+}
+
+.minutes {
+    padding-right: 20px;
+    font-size: larger;
+}
+
+.minutes :hover {
+    color: cyan;
+}
+
+.seconds {
+    padding-right: 20px;
+    font-size: larger;
+}
+
+.seconds :hover {
+    color: cyan;
+}
+
+.clock {
+width: 300px;
+height: 300px;
+background-color: whitesmoke ;
+border-radius: 50%;
+}
+
+/* .clock .number { */
+    /* --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+ 
+    transform: rotate(var(--rotation));
+}
+
+.clock .number1 { --rotation: 30deg ;} 
+.clock .number2 { --rotation: 60deg ;} 
+.clock .number3 { --rotation: 90deg ;} 
+.clock .number4 { --rotation: 120deg ;} 
+.clock .number5 { --rotation: 150deg ;} 
+.clock .number6 { --rotation: 180deg ;} 
+.clock .number7 { --rotation: 210deg ;} 
+.clock .number8 { --rotation: 240deg ;} 
+.clock .number9 { --rotation: 270deg ;} 
+.clock .number10 { --rotation: 300deg ;} 
+.clock .number11 { --rotation: 330deg ;} 
+
+
+} */
